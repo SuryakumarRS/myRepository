@@ -4,10 +4,10 @@ public class AppointDetails {
 		
 	public static void main(String args[]){  
 	
-		solve();
+		print();
 	}	
 		
-	static void solve() {
+	static void print() {
 		try{  
 			Class.forName("com.mysql.cj.jdbc.Driver");  
 			Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/clinicmanagement","root","tiger");  				  
